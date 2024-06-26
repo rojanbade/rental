@@ -1,0 +1,55 @@
+.btn-started {
+    width: 300px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #e8dfca;
+    font-size: 20px;
+    color: #1a4d2e;
+    letter-spacing: 2px;
+  }
+
+  .nav{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 500px;
+  }
+
+  ul>li>a{
+    color: black;
+    text-decoration: none;
+  }
+
+  ul>li>a:hover{
+    color: red;
+    text-decoration: underline;
+
+  }
+
+  .cars{
+
+    background-color: chocolate;
+    color: white;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .bike{
+    background-color: navy;
+    color: white;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .bicycle{
+    background-color: olive;
+    color: white;
+    width: 100%;
+    height: 100vh;
+  }

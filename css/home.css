@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.font-noto {
+  font-family: "Noto Serif Display", serif;
+}
+
+.hero-section {
+  background-color: #777;
+  background-image: url(/images/car.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+}
+.desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 70px;
+  letter-spacing: 1rem;
+  margin-bottom: 30px;
+}
+
+.hero-section p {
+  font-size: 30px;
+  letter-spacing: 0.2rem;
+}
+
+.hero-section ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  width: auto;
+  padding: 20px;
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+  color: indianred;
+}
+
+.gallery {
+  padding: 50px 0;
+  /* height: 100vh; */
+  display: flex;
+  flex-wrap: wrap;
+  gap:30px;
+  justify-content: space-evenly;
+  align-items: end;
+}
+
+.sub-title {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.image-slide{
+  width: 100vw;
+  height: 100vh;
+}
+.img-slide-item{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 765px){
+  .hero-section ul {
+    width: auto;
+    flex-wrap: wrap;
+  }
+
+  .red-audi{
+    width: 350px;
+    height: 200px;
+  }
+}
+
+
+@media screen and (max-width: 480px){
+  .hero-section ul {
+    width: auto;
+    flex-wrap: wrap;
+  }
+
+  .red-audi{
+    width: 350px;
+    height: 200px;
+  }
+}
